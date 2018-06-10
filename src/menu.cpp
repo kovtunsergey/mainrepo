@@ -15,7 +15,7 @@ int menu()
 			if(x2 ... y2) //coord knopok menu
 			{
 				// return code ->>>>> main.cpp
-			 } 
+			} 
 		}
 	}
 	return 0;
