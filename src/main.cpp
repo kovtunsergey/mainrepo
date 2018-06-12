@@ -54,4 +54,16 @@ int main()
 			return 0;
 		}
 		readpictures(field);
+		outputmat(mass, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15);
+		for(int i = 0; i < 4; i++)
+		{
+			for(int j = 0; j < 4; j++)
+			{
+				if(mass[i][j] == 0)
+				{
+					x = i; y = j;
+				}
+			}
+		}
+		delay(50);
 	}
