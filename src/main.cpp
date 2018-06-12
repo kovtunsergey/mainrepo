@@ -66,4 +66,8 @@ int main()
 			}
 		}
 		delay(50);
+		emp_monitors(x, y, mass);
+		fl = move(mass, x, y);
+		fl1 = checkw(massive, mass);
+		
 	}
