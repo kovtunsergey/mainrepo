@@ -26,19 +26,19 @@ char *p14, char *p15)
 				break;
 				case 8: readimagefile(p8, 100 + (j * 100), 100 + (i * 100), 200 + (j * 100), 200 + (i * 100));
 				break;
-				case 9: readimagefile(p9, ..)
+				case 9: readimagefile(p9, 100 + (j * 100), 100 + (i * 100), 200 + (j * 100), 200 + (i * 100));
 				break;
-				case 10: readimagefile(p10, ..)
+				case 10: readimagefile(p10, 100 + (j * 100), 100 + (i * 100), 200 + (j * 100), 200 + (i * 100));
 				break;
-				case 11: readimagefile(p11, ..)
+				case 11: readimagefile(p11, 100 + (j * 100), 100 + (i * 100), 200 + (j * 100), 200 + (i * 100));
 				break;
-				case 12: readimagefile(p12, ..)
+				case 12: readimagefile(p12, 100 + (j * 100), 100 + (i * 100), 200 + (j * 100), 200 + (i * 100));
 				break;
-				case 13: readimagefile(p13, ..)
+				case 13: readimagefile(p13, 100 + (j * 100), 100 + (i * 100), 200 + (j * 100), 200 + (i * 100));
 				break;
-				case 14: readimagefile(p14, ..)
+				case 14: readimagefile(p14, 100 + (j * 100), 100 + (i * 100), 200 + (j * 100), 200 + (i * 100));
 				break;
-				case 15: readimagefile(p15, ..)
+				case 15: readimagefile(p15, 100 + (j * 100), 100 + (i * 100), 200 + (j * 100), 200 + (i * 100));
 				break;
 			}
 		}
