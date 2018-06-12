@@ -1,3 +1,4 @@
+#include "../src/emphasize.cpp"
 #include "../src/check_border.cpp"
 void emp_monitors(int x, int y, int (*mass)[4])
 {
