@@ -1,3 +1,4 @@
+#include "../src/printmass.cpp"
 bool move(int (*mass)[4],int &x, int &y)
 {
 	int x1 = x;
@@ -33,3 +34,5 @@ bool move(int (*mass)[4],int &x, int &y)
 		continue;
 		x1 = (x1 - 90) / 100;
 		y1 = (y1 - 90) / 100;
+		cout << x1 << " " << y1 << endl;
+		if()
