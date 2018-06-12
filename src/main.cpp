@@ -2,6 +2,11 @@
 #include "../src/menu.cpp"
 #include "../src/start_new_fi.cpp"
 #include "../src/m_outfile"
+#include "../src/input_mat_fi.cpp"
+#include "../src/menu.cpp"
+#include "../src/checkw.cpp"
+#include "../src/emp_monitors.cpp"
+#include "../src/outputmat.cpp"
 using namespace std;
 
 int main()
