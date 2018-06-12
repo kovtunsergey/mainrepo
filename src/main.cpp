@@ -69,5 +69,12 @@ int main()
 		emp_monitors(x, y, mass);
 		fl = move(mass, x, y);
 		fl1 = checkw(massive, mass);
-		
+		while((fl) && (!fl1))
+		{
+			outputmat(mass, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15);
+			delay(50);
+			emp_monitors(x, y, mass);
+			fl = move(mass, x, y);
+			fl1 = checkw(massive, mass);
+		}
 	}
