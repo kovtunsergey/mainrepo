@@ -10,21 +10,21 @@ char *p14, char *p15)
 			{
 				case 0: readimagefile(p0, 100 + (j * 100), 100 + (i * 100), 200 + (j * 100), 200 + (i * 100));
 				break;
-				case 1: readimagefile(p1, ..)
+				case 1: readimagefile(p1, 100 + (j * 100), 100 + (i * 100), 200 + (j * 100), 200 + (i * 100));
 				break;
-				case 2: readimagefile(p2, ..)
+				case 2: readimagefile(p2, 100 + (j * 100), 100 + (i * 100), 200 + (j * 100), 200 + (i * 100));
 				break;
-				case 3: readimagefile(p3, ..)
+				case 3: readimagefile(p3, 100 + (j * 100), 100 + (i * 100), 200 + (j * 100), 200 + (i * 100));
 				break;
-				case 4: readimagefile(p4, ..)
+				case 4: readimagefile(p4, 100 + (j * 100), 100 + (i * 100), 200 + (j * 100), 200 + (i * 100));
 				break;
-				case 5: readimagefile(p5, ..)
+				case 5: readimagefile(p5, 100 + (j * 100), 100 + (i * 100), 200 + (j * 100), 200 + (i * 100));
 				break;
-				case 6: readimagefile(p6, ..)
+				case 6: readimagefile(p6, 100 + (j * 100), 100 + (i * 100), 200 + (j * 100), 200 + (i * 100));
 				break;
-				case 7: readimagefile(p7, ..)
+				case 7: readimagefile(p7, 100 + (j * 100), 100 + (i * 100), 200 + (j * 100), 200 + (i * 100));
 				break;
-				case 8: readimagefile(p8, ..)
+				case 8: readimagefile(p8, 100 + (j * 100), 100 + (i * 100), 200 + (j * 100), 200 + (i * 100));
 				break;
 				case 9: readimagefile(p9, ..)
 				break;
