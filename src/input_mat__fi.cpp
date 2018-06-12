@@ -1,3 +1,4 @@
+#include "../src/struct.cpp"
 void input_mat_fi(FILE *tf, int(*mass)[4])
 {
 	tf = fopen("io.dat","wb");
