@@ -14,7 +14,8 @@ int menu()
 			getmouseclick(WM_LBUTTONDOWN, x2, y2);
 			if((x2 >= 195) && (x2 <= 405)) 
 			{
-				// return code ->>>>> main.cpp
+				if((y2 >= 130) && (y2 <= 225))
+				{return 1;}
 			} 
 		}
 	}
