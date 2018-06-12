@@ -1,3 +1,6 @@
+#include "../src/swap.cpp"
+#include "../src/index.cpp"
+#include "../src/check_border.cpp"
 #include "../src/printmass.cpp"
 bool move(int (*mass)[4],int &x, int &y)
 {
