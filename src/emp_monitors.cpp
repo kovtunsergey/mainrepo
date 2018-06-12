@@ -7,17 +7,17 @@ void emp_monitors(int x, int y, int (*mass)[4])
 	x1 = x + 1;
 	y1 = y;
 	if(check_border(x1, y1))
-	{emphasize(x1, y1, mass)};
+	{emphasize(x1, y1, mass);}
 	x1 = x - 1;
 	y1 = y;
 	if(check_border(x1, y1))
-	{emphasize(x1, y1, mass)};
+	{emphasize(x1, y1, mass);}
 	x1 = x; 
 	y1 = y + 1;
 	if(check_border(x1, y1))
-	{emphasize(x1, y1, mass)};
+	{emphasize(x1, y1, mass);}
 	x1 = x;
 	y1 = y - 1;
 	if(check_border(x1, y1))
-	{emphasize(x1, y1, mass)};
+	{emphasize(x1, y1, mass);}
 }
