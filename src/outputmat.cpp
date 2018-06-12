@@ -8,37 +8,37 @@ char *p14, char *p15)
 		{
 			switch(mass[i][j])
 			{
-				case 0: readimagefile(p0, ..)
+				case 0: readimagefile(p0, 100 + (j * 100), 100 + (i * 100), 200 + (j * 100), 200 + (i * 100));
 				break;
-				case 1: readimagefile(p0, ..)
+				case 1: readimagefile(p1, ..)
 				break;
-				case 2: readimagefile(p0, ..)
+				case 2: readimagefile(p2, ..)
 				break;
-				case 3: readimagefile(p0, ..)
+				case 3: readimagefile(p3, ..)
 				break;
-				case 4: readimagefile(p0, ..)
+				case 4: readimagefile(p4, ..)
 				break;
-				case 5: readimagefile(p0, ..)
+				case 5: readimagefile(p5, ..)
 				break;
-				case 6: readimagefile(p0, ..)
+				case 6: readimagefile(p6, ..)
 				break;
-				case 7: readimagefile(p0, ..)
+				case 7: readimagefile(p7, ..)
 				break;
-				case 8: readimagefile(p0, ..)
+				case 8: readimagefile(p8, ..)
 				break;
-				case 9: readimagefile(p0, ..)
+				case 9: readimagefile(p9, ..)
 				break;
-				case 10: readimagefile(p0, ..)
+				case 10: readimagefile(p10, ..)
 				break;
-				case 11: readimagefile(p0, ..)
+				case 11: readimagefile(p11, ..)
 				break;
-				case 12: readimagefile(p0, ..)
+				case 12: readimagefile(p12, ..)
 				break;
-				case 13: readimagefile(p0, ..)
+				case 13: readimagefile(p13, ..)
 				break;
-				case 14: readimagefile(p0, ..)
+				case 14: readimagefile(p14, ..)
 				break;
-				case 15: readimagefile(p0, ..)
+				case 15: readimagefile(p15, ..)
 				break;
 			}
 		}
