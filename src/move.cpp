@@ -29,10 +29,28 @@ bool move(int (*mass)[4],int &x, int &y)
 	{
 		getmouseclick(WM_LBUTTONDOWN, y1, x1);
 		if((x1 < 25) && (y1 < 600) && (x1 > 0) && (y1 > 575)) 
+		{
 		return 1;
+		}
 		if((x1 < 90)||(y1 < 90))
+		{
 		continue;
+	    }
 		x1 = (x1 - 90) / 100;
 		y1 = (y1 - 90) / 100;
 		cout << x1 << " " << y1 << endl;
-		if()
+		if(index(x1, y1, x, y))
+		{
+			break;
+		}
+	}
+	}
+	system("CLS");
+	if(check_border(x1, y1))
+	{
+		swap(mass, x, y, x1, y1);
+		x = y1;
+		y = y1;
+	}
+	return 0;
+}
