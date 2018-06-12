@@ -1,3 +1,4 @@
+#include "../src/swap.cpp"
 #include "../src/check_border.cpp"
 void start_new_fi(int (*arr)[4],int &x, int &y)
 {
