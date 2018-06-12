@@ -18,6 +18,8 @@ int menu()
 				{return 1;}
 				if((y2 >= 250) && (y2 <= 330))
 				{return 2;}
+				if((y2 >= 355) && (y2 <= 438))
+				{return 3;}
 			} 
 		}
 	}
