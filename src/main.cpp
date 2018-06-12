@@ -77,4 +77,14 @@ int main()
 			fl = move(mass, x, y);
 			fl1 = checkw(massive, mass);
 		}
+		if(fl) // 1;
+		{
+			input_mat_fi(tf, mass);
+		}
+		if(fl1) // 1;
+		{
+			win = "win.jpg";
+			readimagefile(win, 0, 0, 600, 600);
+			delay(3000);
+		}
 	}
