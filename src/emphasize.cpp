@@ -17,20 +17,20 @@ void emphasize(int x, int y, int (*mass)[4])
 	char *p14;
 	char *p15;
 	p1 = "1pp.jpg";
-	p2 = "2pp.jpg"
-	p3 = "3pp.jpg"
-	p4 = "4pp.jpg"
-	p5 = "5pp.jpg"
-	p6 = "6pp.jpg"
-	p7 = "7pp.jpg"
-	p8 = "8pp.jpg"
-	p9 = "9pp.jpg"
-	p10 = "10pp.jpg"
-	p11 = "11pp.jpg"
-	p12 = "12pp.jpg"
-	p13 = "13pp.jpg"
-	p14 = "14pp.jpg"
-	p15 = "15pp.jpg"
+	p2 = "2pp.jpg";
+	p3 = "3pp.jpg";
+	p4 = "4pp.jpg";
+	p5 = "5pp.jpg";
+	p6 = "6pp.jpg";
+	p7 = "7pp.jpg";
+	p8 = "8pp.jpg";
+	p9 = "9pp.jpg";
+	p10 = "10pp.jpg";
+	p11 = "11pp.jpg";
+	p12 = "12pp.jpg";
+	p13 = "13pp.jpg";
+	p14 = "14pp.jpg";
+	p15 = "15pp.jpg";
 	switch(mass[x][y])
 	{
 		case 0: readimagefile(p0, 100 + (y * 100), 100 + (x * 100), 200 + (y * 100), 200 + (x * 100));

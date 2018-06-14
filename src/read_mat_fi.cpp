@@ -1,3 +1,4 @@
+#include "../src/main.cpp"
 #include "../src/struct.cpp"
 void read_mat_fi(FILE *tf, int (*mass)[4])
 {

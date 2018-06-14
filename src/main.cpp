@@ -1,8 +1,8 @@
-#include "../src/readpictures.cpp"
+#include "../src/readpic.cpp"
 #include "../src/menu.cpp"
 #include "../src/start_new_fi.cpp"
-#include "../src/m_outfile"
-#include "../src/input_mat_fi.cpp"
+#include "../src/read_mat_fi.cpp"
+#include "../src/input_mat__fi.cpp"
 #include "../src/menu.cpp"
 #include "../src/checkw.cpp"
 #include "../src/emp_monitors.cpp"
@@ -47,7 +47,7 @@ int main()
 		choice = menu();
 		if(choice == 1)
 		{
-			m_outfile(tf,mass);
+			read_mat_fi(tf,mass);
 		}
 		if(choice == 2)
 		for(int i = 0; i < 1000; i++)
