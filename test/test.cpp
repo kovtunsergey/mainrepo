@@ -30,6 +30,19 @@ bool checkw(const int (*massive)[4], int (*mass)[4])
 	return 1;
 }
 
+bool index(int x1, int y1, int x, int y)
+{
+	if((x1==4)||(y1==4))
+	{
+		return 0;
+	}
+	if((((x+1)==x1)&&(y1==y))||(((x-1)==x1)&&(y1==y))||(((y+1)==y1)&&(x1==x))||(((y-1)==y1)&&(x1==x))) 
+	{
+		return 1;
+	}
+	return 0;
+}
+
 
 int ASSERT(int x, int y)
 {
@@ -57,7 +70,7 @@ int main()
 	int expected = 1; // ожидаемый
 int expected2 = 0; // ожидаемый
 	int fact = 0;
-	cout << "\t\t\tПроверка функции check_board: " << endl << "\t\t\t2 ожидаемых значения 0 и 1";
+	cout << "\t\t\tПроверка функции check_board: " << endl << "\tДва ожидаемых значения 0 и 1";
 	fact = check_border(4,4);
 	cout << endl << " Фактическое значение если мы вышли за границу 1 и ожидаемый результат 1:  " << endl;
 	cout << "Test 1: ожидаемый = фактическому?(равен=1 если нет то 2) :" << ASSERT(expected,fact) << endl;
@@ -77,5 +90,12 @@ int expected2 = 0; // ожидаемый
 	fact = checkw(massive,mass);
 	cout << "Test 2: ожидаемый *1* равен фактическому?(0=нет,1=да): " << ASSERT_C(expected,fact) << endl;
 	
-
+	cout <<"\t\t\tПроверка функции index"<<endl;
+	cout <<"\tДва ожидаемых значения 0 , 1 " << endl;
+	fact = 0;
+	fact = index(4,4,0,0);
+	cout << "Test 1: ожидаемый *0* равен фактическому?(0=да,1=нет): " << ASSERT_C(expected2,fact) << endl;
+	fact = 0;
+	fact = index(0,0,4,4);
+	cout << "Test 2: ожидаемый *0* равен фактическому?(0=да,1=нет): " << ASSERT_C(expected,fact) << endl; 
 } 
