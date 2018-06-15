@@ -1,5 +1,5 @@
 #define CTEST_MAIN
-#include <ctest.h>
+#include <ctest.h> //test
 #include <stdio.h>
 #include <stdlib.h>
 //#include "../src/checkw.h"
