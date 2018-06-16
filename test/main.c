@@ -9,9 +9,9 @@
 //#include "../src/check_border.c"
 //#include "../src/index.h"
 //#include "../src/index.c"
-#include "checkw.h"
-#include "index.h"
-#include "check_border.h"
+//#include "checkw.h"
+//#include "index.h"
+//#include "check_border.h"
 CTEST(win,Correct) {
 	int massive[4][4] = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,0}};
 	int arr[4][4] = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,0}};
