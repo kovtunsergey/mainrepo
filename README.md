@@ -1,2 +1,2 @@
-#://travis-ci.org/kovtunsergey/mainrepo.svg?branch=master
+://travis-ci.org/kovtunsergey/mainrepo.svg?branch=master
  
