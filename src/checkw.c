@@ -1,5 +1,5 @@
 #include "checkw.h"
-int checkw(const int (*massive)[4], int (*mass)[4])
+int checkw(int (*massive)[4], int (*mass)[4])
 {
 	for (int i=0;i<4;i++)
 	{
