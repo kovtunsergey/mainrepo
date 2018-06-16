@@ -20,7 +20,7 @@ build/index_te.o: src/index.c src/index.h
 build/check_border.o: src/check_border.c src/check_border.h
 	$(OBJ)
 
-build/main_test.o: test/main.c thirdparty/ctest.h src/checkw.h src/index.h src/check_border.h
+build/main_test.o: test/main.c thirdparty/ctest.h 
 	$(OBJ)
 
 
